@@ -1,0 +1,5 @@
+# Autoriser tous les robots
+User-agent: *
+Allow: /
+
+Sitemap: https://projet-react-evenement.vercel.app/sitemap.xml

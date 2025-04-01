@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://projet-react-evenement.vercel.app/</loc>
+        <lastmod>2025-03-23</lastmod>
+        <changefreq>never</changefreq>
+        <priority>1.0</priority>
+    </url>
+     <url>
+        <loc>https://projet-react-evenement.vercel.app/evenemtAvenis</loc>
+        <lastmod>2025-03-23</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://projet-react-evenement.vercel.app/centreAssistant</loc>
+       <lastmod>2025-03-23</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://projet-react-evenement.vercel.app/contact</loc>
+        <lastmod>2024-05-08</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://projet-react-evenement.vercel.app/connexion</loc>
+        <lastmod>2025-03-23</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+   
+    <url>
+        <loc>https://projet-react-evenement.vercel.app/creerUnCompte</loc>
+        <lastmod>2025-03-23</lastmod>
+        <changefreq>never</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
