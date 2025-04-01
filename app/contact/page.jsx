@@ -4,7 +4,8 @@ export const metadata = {
  description: 'Contactez-nous pour plus d’informations.',
  openGraph: {
   title: 'School Events | Contact',
-  description: 'Contactez-nous pour plus d’informations.'
+  description: 'Contactez-nous pour plus d’informations.',
+  images: ['./react.webp'],
  },
 };
 

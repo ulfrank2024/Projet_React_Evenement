@@ -4,7 +4,8 @@ export const metadata = {
  description: 'Inscrivez-vous pour participer aux événements scolaires.',
  openGraph: {
   title: 'School Events | Créer un compte',
-  description: 'Inscrivez-vous pour participer aux événements scolaires.'
+  description: 'Inscrivez-vous pour participer aux événements scolaires.',
+  images: ['./react.webp'],
  },
 };
 

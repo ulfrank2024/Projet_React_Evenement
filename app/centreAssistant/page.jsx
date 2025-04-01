@@ -4,7 +4,8 @@ export const metadata = {
  description: 'Besoin d’aide ? Trouvez toutes les réponses ici.',
  openGraph: {
   title: 'School Events | Centre d’Assistance',
-  description: 'Besoin d’aide ? Trouvez toutes les réponses ici.'
+  description: 'Besoin d’aide ? Trouvez toutes les réponses ici.',
+  images: ['./react.webp'],
  },
 };
 

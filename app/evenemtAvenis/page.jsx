@@ -4,7 +4,8 @@ export const metadata = {
  description: 'Consultez les événements à venir et inscrivez-vous.',
  openGraph: {
   title: 'School Events | Événements à venir',
-  description: 'Consultez les événements à venir et inscrivez-vous.'
+  description: 'Consultez les événements à venir et inscrivez-vous.',
+  images: ['./react.webp'],
  },
 };
 
