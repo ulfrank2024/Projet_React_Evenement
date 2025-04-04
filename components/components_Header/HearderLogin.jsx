@@ -5,14 +5,14 @@ import Link from 'next/link';
 export default function HeaderLogin() {
      const { t } = useTranslation('header');
     return (
-     <div className="md:flex space-y-5 md:space-y-0 items-center space-x-6 mt-5 mb-5">
-      <div className="flex col-flex items-center justify-center space-x-2 ">
+     <div className="md:flex space-y-5 md:space-y-0 items-start space-x-0 md:space-x-3 mt-5 mb-5">
+      <div className="flex col-flex items-center justify-start space-x-2 ">
        <BiLogInCircle className="bg-black rounded-3xl w-6 h-6" />
        <Link href="/connexion" className="hover:text-blue-300 text-sm">
         {t('header.login')}
        </Link>
       </div>
-      <div className="flex col-flex  items-center justify-center space-x-2">
+      <div className="flex col-flex items-center justify-start space-x-2 ">
        <MdAccountCircle className="bg-black rounded-3xl w-6 h-6" />
        <Link href="/creerUnCompte" className="hover:text-blue-300 text-sm">
         {t('header.account')}{' '}

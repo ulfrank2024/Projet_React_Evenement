@@ -37,22 +37,6 @@ export default function Header() {
      <div className="flex flex-col md:flex-row space-x-5 space-y-5 md:space-y-0 items-center">
       <HeaderRecherche />
       <NavBar />
-      {ready && (
-       <>
-        <button aria-label="mode_couleur" className="text-2xl" onClick={toggleTheme}>
-         {theme === 'light' ? <FaMoon /> : <IoSunnySharp />}
-        </button>
-        <select
-         value={language}
-         onChange={(e) => changeLanguage(e.target.value)}
-         className="text-black"
-         aria-label="Langue"
-        >
-         <option value="en">EN</option>
-         <option value="fr">FR</option>
-        </select>
-       </>
-      )}
      </div>
     </div>
    </nav>

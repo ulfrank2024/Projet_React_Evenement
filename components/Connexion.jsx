@@ -8,13 +8,6 @@ export default function Connexion() {
     <div className="w-full md:w-1/2 flex justify-center">
      <Block1 />
     </div>
-    <div className="hidden md:flex w-full">
-     <Image
-      src={imageCompte}
-      alt="image de la page Creer compte"
-      className="w-full h-full object-cover rounded-xl"
-     />
-    </div>
    </div>
   </div>
  );
