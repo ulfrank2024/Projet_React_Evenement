@@ -5,21 +5,10 @@ import HeaderRecherche from './components_Header/HeaderRecherche.jsx';
 import NavBar from './components_Header/NavBar.jsx';
 import logo from '@/public/image/logo.webp';
 import Link from 'next/link.js';
-import { IoSunnySharp } from 'react-icons/io5';
-import { FaMoon } from 'react-icons/fa';
-import { useMyContext } from '@/provider/MyContextProvider.jsx';
-import { useLanguage } from '@/provider/LanguageContextProvider.jsx';
-import { useState, useEffect } from 'react';
+
 
 export default function Header() {
- const { theme, toggleTheme } = useMyContext();
- const { language, changeLanguage } = useLanguage();
-
- const [ready, setReady] = useState(false);
-
- useEffect(() => {
-  setReady(true);
- }, []);
+ 
 
  return (
   <header>

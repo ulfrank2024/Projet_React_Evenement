@@ -1,6 +1,7 @@
 'use client'
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
+import { useTranslation } from 'react-i18next';
 export default function Formulaire() {
     const { register, handleSubmit, getValues, formState: { errors },reset } = useForm({
         defaultValues: {
@@ -41,16 +42,16 @@ export default function Formulaire() {
          );
 
     }
+      const { t } = useTranslation('contact');
     return (
      <div>
       <div className="flex flex-col md:flex-col  justify-center items-center p-10 space-y-10">
        <div>
         <p className="w-full text-center mt-5 text-2xl mb-5">
-         Nous Contacter!!!
+         {t('contact.titre')}
         </p>
         <p className="w-full text-center mt-5 italic ">
-         Utilisez le formulaire ci-dessous pour nous envoyer un message. Nous
-         vous répondrons dans les plus brefs délais !
+         {t('contact.description')}
         </p>
        </div>
 
@@ -59,7 +60,7 @@ export default function Formulaire() {
         className="flex gap-4 flex-col  w-80 md:min-w-96   bg-customBlue rounded-xl p-5 text-white"
        >
         <label className="flex gap-1 flex-col">
-         Nom:
+         {t('contact.nom')}
          <input
           {...register('nom', { required: 'Chanp obligatoire!!!' })}
           type="text"
@@ -70,7 +71,7 @@ export default function Formulaire() {
          )}
         </label>
         <label className="flex gap-1 flex-col">
-         Email:
+         {t('contact.email')}
          <input
           {...register('email', {
            required: 'champ obligatoire',
@@ -88,7 +89,7 @@ export default function Formulaire() {
          )}
         </label>
         <label className="flex gap-1 flex-col">
-         Objet:
+         {t('contact.objet')}
          <input
           {...register('object', { required: 'champ obligatoire' })}
           type="text"
@@ -99,7 +100,7 @@ export default function Formulaire() {
          )}
         </label>
         <label className="flex gap-1 flex-col">
-         Message:
+         {t('contact.message')}
          <textarea
           {...register('message', { required: 'Champs obligatoire' })}
           type="text"
@@ -113,12 +114,12 @@ export default function Formulaire() {
         <div className="flex justify-center gap-2 my-8">
          <input
           type="submit"
-          value="Envoyer"
+          value={t('contact.envoyer')}
           className="bg-Griclair text-white rounded-lg p-2 cursor-pointer hover:bg-blue-700 text-black"
          />
          <input
           type="button"
-          value="Annuler"
+          value={t('contact.annuler')}
           className="bg-Griclair text-white rounded-lg p-2 cursor-pointer hover:bg-blue-700"
          />
         </div>

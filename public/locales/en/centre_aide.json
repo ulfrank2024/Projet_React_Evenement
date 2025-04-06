@@ -1,0 +1,134 @@
+{
+ "aide.titre": "How can we help you?",
+ "aide.recherche": "Search help articles",
+ "aide.question": "Still have questions?",
+ "aide.contact": "Contact us",
+ "aide.articles_en_vedette": "featured articles",
+ "aide.naviguer_par_theme": "browse by theme",
+ "categories": {
+  "participer": {
+   "nom": "Participate in an event",
+   "articles_en_vedette": [
+    {
+     "id": 1,
+     "titre": "Find your tickets",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 2,
+     "titre": "Request a refund",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 3,
+     "titre": "Contact the organizer",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 4,
+     "titre": "What are these charges for?",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 5,
+     "titre": "Transfer tickets to someone",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 6,
+     "titre": "Modify information",
+     "icone": "IoDocumentText"
+    }
+   ],
+   "naviguer par_theme": [
+    {
+     "id": 7,
+     "titre": "Buy and register",
+     "icone": "FaDollarSign"
+    },
+    {
+     "id": 8,
+     "titre": "Your tickets",
+     "icone": "IoTicket"
+    },
+    {
+     "id": 9,
+     "titre": "Your account",
+     "icone": "MdAccountCircle"
+    },
+    {
+     "id": 10,
+     "titre": "Terms and policies",
+     "icone": "LuBookOpenText"
+    }
+   ]
+  },
+  "organiser": {
+   "nom": "Organize an event",
+   "articles_en_vedette": [
+    {
+     "id": 11,
+     "titre": "Launch an Eventbrite Ads campaign",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 12,
+     "titre": "Connect your online event to Zoom",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 13,
+     "titre": "Email your registered attendees",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 14,
+     "titre": "Add and manage your payment details",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 15,
+     "titre": "Issue a full or partial refund",
+     "icone": "IoDocumentText"
+    },
+    {
+     "id": 16,
+     "titre": "Late or missing payments",
+     "icone": "IoDocumentText"
+    }
+   ],
+   "naviguer_par_theme": [
+    {
+     "id": 17,
+     "titre": "Create an event",
+     "icone": "RiCalendarTodoLine"
+    },
+    {
+     "id": 18,
+     "titre": "Event marketing",
+     "icone": "PiSpeakerSimpleNoneDuotone"
+    },
+    {
+     "id": 19,
+     "titre": "Order management",
+     "icone": "LuNotebookPen"
+    },
+    {
+     "id": 20,
+     "titre": "Payments and taxes",
+     "icone": "CiDollar"
+    },
+    {
+     "id": 21,
+     "titre": "Your account",
+     "icone": "MdAccountCircle"
+    },
+    {
+     "id": 22,
+     "titre": "Terms and policies",
+     "icone": "LuBookOpenText"
+    }
+   ]
+  }
+ }
+}

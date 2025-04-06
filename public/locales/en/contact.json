@@ -1,0 +1,10 @@
+{
+ "contact.titre": "Contact Us!!!",
+ "contact.description": "Use the form below to send us a message. We will reply as soon as possible!",
+ "contact.nom": "Name:",
+ "contact.email": "Email:",
+ "contact.objet": "Subject:",
+ "contact.message": "Message:",
+ "contact.envoyer": "Send",
+ "contact.annuler": "Cancel"
+}
