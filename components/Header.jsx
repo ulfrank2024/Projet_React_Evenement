@@ -5,6 +5,7 @@ import HeaderRecherche from './components_Header/HeaderRecherche.jsx';
 import NavBar from './components_Header/NavBar.jsx';
 import logo from '@/public/image/logo.webp';
 import Link from 'next/link.js';
+import InstallPrompt from './InstallPrompt.jsx';
 
 
 export default function Header() {
@@ -28,6 +29,7 @@ export default function Header() {
       <NavBar />
      </div>
     </div>
+    <InstallPrompt/>
    </nav>
   </header>
  );

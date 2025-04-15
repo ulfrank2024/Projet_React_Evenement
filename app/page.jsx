@@ -7,6 +7,7 @@ export const metadata = {
   description: 'Découvrez les événements et activités scolaires à venir.',
   images: ['./react.webp'],
  },
+ manifest: '/manifest.json',
 };
 
 
